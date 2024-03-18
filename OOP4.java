@@ -38,7 +38,6 @@ class Library {
         issuedBooks.put(libraryCard, book);
     }
 
-    // Метод для выдачи книги с библиотечной карточкой
     public void issueBook(Book<String> book, LibraryCard<Integer, String> libraryCard) {
         addBook(book, libraryCard);
     }
